@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Bootstrap Example</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <link href="https://fonts.googleapis.com/css?family=Fjalla+One" rel="stylesheet">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <style>
+    /* Remove the navbar's default margin-bottom and rounded borders */
+    .navbar {
+      margin-bottom: 0;
+      border-radius: 0;
+    }
+    
+    /* Add a gray background color and some padding to the footer */
+    footer {
+      background-color: #1c7584;
+      padding: 25px;
+    }
+    .jumbotron{
+      background-color: #1c7584; 
+      color:white;
+      font-family: 'Fjalla One', sans-serif;
+    }
+    .container-fluid {
+      color:black;
+      font-family: 'Fjalla One', sans-serif;
+    }
+    #game{
+      font-size:20px;
+    }
+    .connect{
+      float:right;
+    }
+    .row{
+      margin: 20px;
+    }
+    .input-group{
+      width:500px;
+      margin-left:400px;
+    }
+
+  </style>
+</head>
+<body>
+
+<nav class="navbar navbar-inverse">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav">
+       
+        <li><a href="index.html">Portfolio</a></li>
+        <li><a href="portfolio.html">About</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+      <ul class="connect">
+        <li><a href="https://github.com/Joeyrodrigues92">
+        <img src="../bootstrap-portfolio/img/git hub.jpg" class="social" alt="Github" style="width: 50px;"></a></li>
+       
+        <li><a href="https://www.linkedin.com/in/joey-rodrigues-87295b129?trk=nav_responsive_tab_profile">
+        <img src="../bootstrap-portfolio/img/link.jpg" class="social" alt="LinkedIn" style="width: 50px"></a></li>
+        <li><a href="http://stackoverflow.com/users/7020416/joey-rodrigues?tab=profile">
+        <img src="../bootstrap-portfolio/img/stackoverflow.jpg" class="social" alt="Stack Overflow" style="width:50px"></a></li>
+     </ul>
+
+    </div>
+  </div>
+</nav>
+
+<div class="jumbotron">
+  <div class="container text-center">
+    <h1>Joey L. Rodrigues</h1>
+    <p>Aspiring Web Developer</p>
+  </div>
+</div>
+  
+<div class="container-fluid bg-3 text-center">
+  <h3>Conact Me</h3><br>
+  <div class="input-group">
+    <span class="input-group-addon" id="basic-addon1">Your Name</span>
+     <input type="text" class="form-control" placeholder="First and Last" aria-describedby="basic-addon1">
+  </div>
+
+  <div class="input-group">
+   <span class="input-group-addon" id="basic-addon2">Email</span>
+   <input type="text" class="form-control" aria-describedby="basic-addon2">
+  </div>
+
+  <div class="input-group">
+    <span class="input-group-addon">Message</span>
+    <input type="text" class="form-control" aria-label="Amount (to the nearest dollar)" style="height: 300px;">
+  </div>
+  
+  
+</div><br>
+
+
+
+<footer class="container-fluid text-center">
+  <p>copyright Joey L. Rodrigues</p>
+</footer>
+
+</body>
+</html>
